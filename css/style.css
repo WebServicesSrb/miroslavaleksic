@@ -13,13 +13,12 @@ body {
     font-weight: 400;
 }
 .content {
-    height: 200vh;
+    height: 100vh;
     background-color: #333;
     background-blend-mode: multiply;
     background-size: cover;
     display: grid;
     place-items: center;
-    background-image: url(//unsplash.it/1000/10) ;
 }
 /* navigation styles start here */
 header {
@@ -146,7 +145,11 @@ nav a:hover {
         transform: scale(1, 1);
     }
 }
-
+@media screen and (min-width: 370px) {
+    p {
+        text-align: center;
+    }
+}
 /*ovde pocinje strana*/
 
 i {
@@ -157,6 +160,11 @@ i {
 p {
     color: seashell;
     text-align: justify;
+    font-size: 1.2em;
+    margin: 50px 5px;
+    /*text-justify: inter-character;*/
+    word-spacing:-5px;
+    /*word-break: break-all;*/
 }
 h1 {
     color: seashell;
@@ -169,9 +177,11 @@ h1 {
 img {
     width: 100%;
 }
-p {
-    font-size: 1.2em;
-}
 .fab:hover {
     color: blue;
+}
+@media screen and (max-width: 370px) {
+    p {
+        text-align: none;
+    }
 }

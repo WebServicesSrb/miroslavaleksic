@@ -13,13 +13,12 @@ body {
     font-weight: 400;
 }
 .content {
-    height: 200vh;
+    height: 100vh;
     background-color: #333;
     background-blend-mode: multiply;
     background-size: cover;
     display: grid;
     place-items: center;
-    background-image: url(//unsplash.it/1000/10) ;
 }
 /* navigation styles start here */
 header {
