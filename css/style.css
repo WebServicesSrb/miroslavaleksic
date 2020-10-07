@@ -182,7 +182,6 @@ img {
 }
 @media screen and (max-width: 370px) {
     p {
-        text-align: none;
         word-spacing:-5px;
     }
 }
