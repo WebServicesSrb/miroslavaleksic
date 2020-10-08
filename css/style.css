@@ -180,8 +180,8 @@ img {
 .fab:hover {
     color: blue;
 }
-@media screen and (max-width: 380px) {
+/*@media screen and (max-width: 380px) {
     p {
         word-spacing:-5px;
     }
-}
+}*/
