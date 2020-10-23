@@ -99,6 +99,7 @@ nav a:hover {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
+
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
@@ -177,3 +178,27 @@ img {
 .fab:hover {
     color: blue;
 }
+/* Footer */
+.footer-content {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+}
+.footer-content a {
+    text-decoration: none;
+}
+.footer-content span {
+    color: rgb(173, 111, 202);
+}
+.footer-content .ro:hover {
+    /* transform: rotate(20deg); */
+    transform: matrix(1.5, 0.3, 0, 1, 0, 0);
+    box-shadow: 1px 1px rgb(49, 49, 44), -1px -1px rgb(49, 49, 44);
+}
+.social {
+    margin-bottom: 2rem;
+}
+/* end of footer */
