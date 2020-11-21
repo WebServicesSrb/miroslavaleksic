@@ -213,6 +213,9 @@ a {
     text-decoration: none;
     color: rgba(85, 214, 170, .85);
 }
+a:hover {
+    color: rgba(85, 214, 170, 1);
+}
 /*@media screen and (max-width: 380px) {
     p {
         word-spacing:-5px;
